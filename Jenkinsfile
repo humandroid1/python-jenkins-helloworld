@@ -9,7 +9,7 @@ node{
     sh  "ssh  ec2-user@54.167.84.225 'sudo  python autoimport.py' "
     }
    }
-    //stage('Deploying python file in other instance'){
-     //sh  "ssh  ec2-user@54.167.84.225 'python app.py' "
-     //}
+    stage('Deploying python file in other instance'){
+     sh  "ssh  ec2-user@54.167.84.225 'python app.py' "
+     }
      }
