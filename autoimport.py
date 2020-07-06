@@ -29,7 +29,7 @@ with open('app.py') as f:
 
 if len(pkgs) is not 0:
     print(pkgs)
-    #pip.main(['install'] + pkgs)
+    pip.main(['install'] + pkgs)
     print("******************")
 else:
     print("All the Packages are installed...You are Good to go...")
