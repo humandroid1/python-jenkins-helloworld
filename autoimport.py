@@ -14,6 +14,6 @@ with open('app.py') as f:
                     pkgs.append((tmp[-1].strip()))
 if len(pkgs) is not 0:
     print(pkgs)
-    pip.main(['install'] + pkgs)
+    #pip.main(['install'] + pkgs)
 else:
     print("All the Packages are installed...You are Good to go...")
