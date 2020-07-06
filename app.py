@@ -1,4 +1,6 @@
 import os
+import pillow
+import tensorflow
 from flask import Flask
 app = Flask(__name__)
 
