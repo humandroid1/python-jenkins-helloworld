@@ -11,7 +11,6 @@ with open('app.py') as f:
         if "import" in lines and "#" not in lines:
             tmp = lines.split("import")
             if tmp[-1].strip() not in built_in_mod and (tmp[-1].strip()).lower() not in installed:
-           
                     pkgs.append((tmp[-1].strip()))
 if len(pkgs) is not 0:
     print(pkgs)
