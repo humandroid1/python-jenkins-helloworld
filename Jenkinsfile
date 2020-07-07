@@ -12,7 +12,7 @@ node{
     
    }
     stage('Deploying python file in other instance'){
-     sh  "ssh  ec2-user@34.202.157.47 'nohup python app.py &' "
+     sh  "ssh  ec2-user@34.202.157.47 'nohup python app.py > nohup.out &' "
       //sh "python app.py"
      }
      }
